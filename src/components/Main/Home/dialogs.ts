@@ -159,8 +159,8 @@ const jsonText: conversation = [
     }
 ];
 
-type questionsType = [{ id: number, question: string, goto: string }];
-type conversationHashType = { [title: string]: { tags: string, message: string, questions: questionsType } }
+export type questionsType = { id: number, question: string, goto: string }[];
+export type conversationHashType = { [title: string]: { tags: string, message: string, questions: questionsType } }
 
 /* 
 YARN is a software that can be used to generate a conversation-like JSON

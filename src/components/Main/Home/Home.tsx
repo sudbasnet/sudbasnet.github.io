@@ -1,31 +1,41 @@
-import React, { Component } from 'react';
-import DIALOGS from './dialogs';
+import React, { Component, Fragment } from 'react';
+import DIALOGS, { questionsType } from './dialogs';
 import Terminal from './Terminal/Terminal';
+import Game from './Game/Game';
 
 const initialDialog = DIALOGS["Start"]
 
 class Home extends Component {
-    state: { questions: [String], dialog: String, showDialog: Boolean };
-    // maybe its better to let App handle this. there is not alot of point 
-    // doing this here
+    state: { questions: questionsType, dialog: string, displayTab: string };
 
-    constructor(props: { dialog: String, questions: [String] }) {
+    constructor(props: any) {
         super(props);
         this.state = {
-            dialog: props.dialog,
-            questions: props.questions,
-            showDialog: true
+            dialog: initialDialog.message,
+            questions: initialDialog.questions,
+            displayTab: 'default'
         }
     }
 
-
-    updateDialogHandler(): void {
-
+    updateDialogHandler(goto: string): void {
+        const newDialog = DIALOGS[goto].message;
+        const newQuestions = DIALOGS[goto].questions;
+        this.setState({ dialog: newDialog, questions: newQuestions });
     }
 
+    showSummaryHandler(): void {
+        const showDialog = false;
+        this.setState({ showDialog: showDialog });
+    }
 
     render() {
-        return <Terminal />
+        const questions = this.state.questions;
+        const dialog = this.state.dialog;
+
+        return <Fragment>
+            <Game />
+            <Terminal dialog={dialog} questions={questions} />
+        </Fragment>
     }
 }
 
