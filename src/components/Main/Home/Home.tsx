@@ -34,7 +34,7 @@ class Home extends Component {
 
         return <Fragment>
             <Game />
-            <Terminal dialog={dialog} questions={questions} />
+            <Terminal dialog={dialog} questions={questions} updateDialog={this.updateDialogHandler.bind(this)} />
         </Fragment>
     }
 }

@@ -4,8 +4,13 @@ import Dialog from './Dialog';
 import './Question.css';
 import { questionsType } from '../dialogs';
 
+interface ITerminalProps {
+    dialog: string;
+    questions: questionsType;
+    updateDialog: (goto: string) => void;
+}
 
-const Terminal: React.FC<{ dialog: string, questions: questionsType }> = props => {
+const Terminal: React.FC<ITerminalProps> = props => {
     return <div className="terminal-section">
         <div className="terminal-content">
             <div className="terminal-text">
@@ -15,7 +20,7 @@ const Terminal: React.FC<{ dialog: string, questions: questionsType }> = props =
                         {props.questions.filter(q => q.id > 0).map(q =>
                         (
                             <li key={q.id}>
-                                <Question key={q.id} question={q.question} />
+                                <Question key={q.id} question={q.question} goto={q.goto} updateDialog={props.updateDialog} />
                             </li>
                         )
                         )}
