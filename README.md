@@ -1,6 +1,6 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Simple Personal Website on GitHub
+On the home page it will have a terminal-like section where user/visitor can click on one of the displayed questions, and an answer will appear with a typing animation. There will be a SUMMARY section which will show most relavent things about be as a developer.
+![](./public/screenshot-01.png)
 
 ## Available Scripts
 
