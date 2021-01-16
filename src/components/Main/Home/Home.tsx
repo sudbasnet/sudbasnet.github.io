@@ -23,18 +23,22 @@ class Home extends Component {
         this.setState({ dialog: newDialog, questions: newQuestions });
     }
 
-    showSummaryHandler(): void {
-        const showDialog = false;
-        this.setState({ showDialog: showDialog });
+    changeTabHandler(requestingTab: string): void {
+        const currentTab = this.state.displayTab;
+        if (requestingTab !== currentTab) {
+            const changeTo = currentTab === 'default' ? 'summary' : 'default';
+            this.setState({ displayTab: changeTo });
+        }
     }
 
     render() {
         const questions = this.state.questions;
         const dialog = this.state.dialog;
+        const displayTab = this.state.displayTab;
 
         return <Fragment>
             <Game />
-            <Terminal dialog={dialog} questions={questions} updateDialog={this.updateDialogHandler.bind(this)} />
+            <Terminal dialog={dialog} questions={questions} displayTab={displayTab} changeTab={this.changeTabHandler.bind(this)} updateDialog={this.updateDialogHandler.bind(this)} />
         </Fragment>
     }
 }

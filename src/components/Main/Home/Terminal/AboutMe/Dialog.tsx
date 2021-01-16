@@ -1,5 +1,4 @@
 import React from 'react';
-import './Dialog.css';
 
 const Dialog: React.FC<{ dialog: string }> = props => {
     return <div className="dialog-box">
