@@ -18,12 +18,9 @@ const Typing: React.FC<ITypingProps> = props => {
     useEffect(() => {
         if (index === dialog.length) return;
 
-        let waitTime = waitTimeMs;
-        let increaseIndexBy = 1;
-
         const wait = setTimeout(()=> {
-            setIndex((currentIndex) => currentIndex + increaseIndexBy);
-        }, waitTime);
+            setIndex((currentIndex) => currentIndex + 1);
+        }, waitTimeMs);
         
         return () => clearTimeout(wait);
     }, [index, dialog]);
