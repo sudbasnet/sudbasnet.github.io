@@ -1,1 +1,99 @@
-export { }
+import React from 'react';
+import './Resume.css';
+
+const Resume: React.FC = () => {
+    return <main className="main-resume">
+        <h2 className="heading1">Summary</h2>
+        <p>Dedicated, career-oriented individual with 4.5 years of professional experience as a Software Engineer and Data
+            Analyst. Graduated with a master’s degree in Computer Science from the University of Nebraska - Lincoln. Has worked
+            in Agile methodology and used technology such as Java, Oracle, Python and JavaScript on Windows and Unix platforms.
+            Interested in Software Development and Data Science.</p>
+
+        <h3 className="heading2">Programming Skills:</h3>
+        <p>Python, C#, Typescript, JavaScript, HTML/CSS, R, SQL, NoSQL</p>
+
+        <h3 className="heading2">Other Technical Skills:</h3>
+        <p className="no-justify">NodeJS, React, Vue, GIT and SVN, Data Analysis, Data Visualization, Database Development, Azure DevOps, JIRA, Snowflake Cloud Data Warehouse, MicroStrategy</p>
+
+        <h2 className="heading1">Work Experience</h2>
+
+        <h3 className="job-title">Technical Consultant
+            <div className="duration"> Oct 2019 – Current</div>
+        </h3>
+        <p><a target="_blank" rel="noreferrer" className="resume-link" href="https://www.logicinfo.com/">Logic Information Systems, Bloomington, MN,
+                USA</a></p>
+        <ul>
+            <li>Developing omni-channel e-commerce solutions with C#, TypeScript, and HTML/CSS in .NET and .NET Core.</li>
+            <li>Developed korn shell-script programs for data manipulation and application of business specific logic in
+                Oracle’s enterprise data warehouse.</li>
+            <li>Designed Cloud Data Warehouse in Snowflake along with stored procedures in JavaScript, and automated data
+                loading with Python.</li>
+            <li>Debugged and resolved issues in reporting dashboards of using MicroStrategy Developer, MicroStrategy
+                Architect
+                and MicroStrategy Intelligence Server.</li>
+        </ul>
+
+        <h3 className="job-title">Graduate Research and Teaching Assistant
+            <div className="duration"> Jan 2017 – Aug 2019</div>
+        </h3>
+        <p><a target="_blank" rel="noreferrer" className="resume-link" href="https://cse.unl.edu/">University of Nebraska – Lincoln (UNL)</a></p>
+        <ul>
+            <li>Developed Agent-based simulation models to simulate and predict social unrest on a geographic and temporal
+                scale, in Repast Java. <a target="_blank" rel="noreferrer" className="resume-link"
+                    href="https://github.com/sudbasnet/SocialUnrestMAS">Github
+                    Link</a></li>
+            <li>Developed a scalable clustering algorithm using Python to perform unsupervised learning on GIS data, with
+                performance gain up to 60% compared to state-of-art algorithms. Published and presented Research Paper.</li>
+            <li>Data Mining, Data Analysis and Data Management using Python, R and Java, utilizing parallel computing on
+                Nebraska’s second-fastest High-Performance Computing servers.</li>
+            <li>Development and management of PHP backed application, and Data Visualization using HTML/CSS, KnockoutJS,
+                Google
+                Maps JavaScript API and MySQL database. <a target="_blank" rel="noreferrer" className="resume-link"
+                    href="https://cse.unl.edu/~surge/">View</a></li>
+        </ul>
+
+        <h3 className="job-title">Software Engineer – Data Operations
+            <div className="duration">July 2012 – Dec 2016</div>
+        </h3>
+        <p>
+            <a target="_blank" rel="noreferrer" className="resume-link" href="http://cotiviti.com.np/">Cotiviti Nepal, Kathmandu, Nepal (Subsidiary
+                of Cotiviti Healthcare, Waltham MA)</a>
+        </p>
+        <ul>
+            <li>Software Development using Java and Oracle 11g on Windows and UNIX platforms. Involved in Integration, 
+                Analysis, Design & Development, Testing and Production support phases.</li>
+            <li>Data Analysis of US healthcare data (HIPAA protected medical data). Prepared Analytical Reports per
+                client-requirements using OBIEE and BIP.</li>
+            <li>Implemented Oracle PL/SQL procedures, functions, triggers and packages for data management and statistical
+                report generation on US healthcare data.</li>
+            <li>Developed ETL procedures, documented and validated complex business rules for data transformation. Prepared
+                technical specification, reviewed code, and performed unit testing for client-specific change requests.</li>
+            <li>Optimized multiple large clients by 60 – 70% in processing time using parallel processes, re-designing
+                back-end
+                jobs, performance tuning, normalization and query optimization.</li>
+            <li>Led multiple teams of Software Engineers through different projects for 2 years. Responsible for Code
+                Quality,
+                Code Reviews, Design Reviews, Code documentation and Design documentation for maintainability.</li>
+        </ul>
+
+
+        <h2 className="heading1">Education</h2>
+
+        <h3 className="job-title">Master of Science, Computer Science
+            <div className="duration">Jan 2017 – August 2019</div>
+        </h3>
+        <p>
+            <a target="_blank" rel="noreferrer" className="resume-link" href="https://cse.unl.edu/">University of Nebraska – Lincoln</a>
+        </p>
+        <p className="no-justify">
+            <strong>Relevant Courses</strong>: <br/>Design and Analysis of Algorithms, Data Structures, Machine Learning,
+            Systems Administration
+        </p>
+
+        <form id='download' target="_blank" method="get" action="assets/basnet_sudeep_resume.pdf">
+            <button id='btn-download' type="submit">Download Resume</button>
+        </form>
+        </main>
+}
+
+export default Resume;

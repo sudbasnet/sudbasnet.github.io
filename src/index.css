@@ -8,13 +8,12 @@ body{
   font-family: Inconsolata;
 }
 
-.wrapper {
+.wrapper-home {
   display: grid;
   grid-template-columns: 1fr minmax(100px, 720px) 1fr;
-  grid-template-rows: 10vh 1px minmax(100px, 78vh) 10vh; /* doing 78vh to account for that 1px row */
+  grid-template-rows: 10vh minmax(100px, 78vh) 10vh;
   grid-template-areas:
       ".  header ."
-      ".    .    ." /* for the router tag */
       "main  main   main"
       ".  footer .";
 }
@@ -23,10 +22,9 @@ body{
 .wrapper-resume, .wrapper-adventures {
   display: grid;
   grid-template-columns: 1fr minmax(100px, 720px) 1fr;
-  grid-template-rows: 10vh 1px 1fr 10vh;
+  grid-template-rows: 10vh 1fr 10vh;
   grid-template-areas:
       ".  header ."
-      ".    .    ." 
       ".  main   ."
       ".  footer .";
 }
@@ -48,19 +46,8 @@ body{
   width: 100%;
 }
 
-.main-resume, .main-adventures {
-  padding: 10px 10px 50px 10px;
-  font-family: "Open Sans" ;
-}
-
 .footer {
   grid-area: footer;
-}
-
-@media (max-width:450px){
-  .footer-links {
-      justify-content: center;
-  }
 }
 
 .nav-links,
@@ -79,6 +66,7 @@ body{
 .footer-links {
   flex-direction: column;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .nav-link,

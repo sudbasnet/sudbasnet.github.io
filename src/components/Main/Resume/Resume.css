@@ -1,0 +1,57 @@
+.heading1{
+    padding-bottom: 20px;
+    font-family: 'Poppins';
+}
+
+.heading2{
+    padding-bottom: 15px;
+    font-family: 'Poppins';
+}
+
+.job-title{
+    padding-bottom: 10px;
+}
+
+.main-resume p{
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.no-justify{
+    text-align: left;
+}
+
+.main-resume ul{
+    padding-bottom: 20px;
+    padding-left: 20px;
+    text-align: justify;
+}
+
+.resume-link {
+    text-decoration: none;
+    color: #868e96;
+}
+
+.resume-link:hover{
+    color: #292b2c;
+}
+
+#btn-download{
+    font-size: inherit;
+    font-family: inherit;
+    text-decoration: none;
+    border: solid;
+    background: none;
+    padding: 5px;
+    cursor: pointer;
+    color: #868e96;
+}
+
+#btn-download:hover{
+    color: #292b2c;
+}
+
+#download{
+    display: flex;
+    justify-content: center;
+}

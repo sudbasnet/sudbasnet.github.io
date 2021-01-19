@@ -23,7 +23,7 @@ const Typing: React.FC<ITypingProps> = props => {
         }, waitTimeMs);
         
         return () => clearTimeout(wait);
-    }, [index, dialog]);
+    }, [index, waitTimeMs, dialog]);
 
     return <span>{dialog.substring(0, index)}</span>
 }

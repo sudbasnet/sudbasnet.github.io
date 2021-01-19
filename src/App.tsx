@@ -1,16 +1,12 @@
 import React from 'react';
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
-import Main from './components/Main/Main';
+import Wrapper from './components/Wrapper';
+import { BrowserRouter } from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="wrapper">
-      <Header />
-      <Main />
-      <Footer />
-    </div>
-  );
+const App = () => {
+  return <BrowserRouter>
+      <Wrapper />
+    </BrowserRouter>;
+
 }
 
 export default App;

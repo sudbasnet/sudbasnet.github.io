@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import DIALOGS, { questionsType } from './dialogs';
 import Terminal from './Terminal/Terminal';
 import Game from './Game/Game';
@@ -31,15 +31,16 @@ class Home extends Component {
         }
     }
 
+    // custom hook to get the current pathname in React
+
     render() {
         const questions = this.state.questions;
         const dialog = this.state.dialog;
         const displayTab = this.state.displayTab;
-
-        return <Fragment>
+        return <main className="main">
             <Game />
             <Terminal dialog={dialog} questions={questions} displayTab={displayTab} changeTab={this.changeTabHandler.bind(this)} updateDialog={this.updateDialogHandler.bind(this)} />
-        </Fragment>
+        </main>
     }
 }
 

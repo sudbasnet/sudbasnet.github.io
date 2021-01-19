@@ -8,7 +8,7 @@ interface IQuestionProps {
 }
 
 const Question: React.FC<IQuestionProps> = props => {
-    return <button className="q-button" onClick={() => props.updateDialog(props.goto)}>{props.question}
+    return <button className="q-button" onClick={() => props.updateDialog(props.goto)}>* {props.question}
         <span className="blinking">_</span>
     </button>
 }
