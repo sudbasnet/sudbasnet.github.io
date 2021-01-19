@@ -10,7 +10,7 @@ const jsonText: conversation = [
     {
         title: "Start",
         tags: "",
-        body: "Hi.^1200 I'm Sudeep.^1200 Welcome to my website...\n[[Valar Morghulis!|valar]]\n[[Howdy!|conversation]]\n[[Hey!|conversation]]\n",
+        body: "Hi. I'm Sudeep... Welcome to my website.\n[[Valar Morghulis!|valar]]\n[[Howdy!|conversation]]\n[[Hey!|conversation]]\n",
         position: {
             "x": -868,
             "y": -337
@@ -120,7 +120,7 @@ const jsonText: conversation = [
     {
         title: "whymasters",
         tags: "",
-        body: "I thought I had some gaps in my knowledge, so I decided to study Computer Science ^600 ... ^600 It was also for getting better job oppurtunities :)\n[[How did it go?|gradwork]]",
+        body: "I thought I had some gaps in my knowledge, so I decided to study Computer Science ... It was also for getting better job oppurtunities :)\n[[How did it go?|gradwork]]",
         position: {
             "x": 355,
             "y": 139
