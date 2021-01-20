@@ -1,7 +1,8 @@
 import React from 'react';
+import ResumePdf from "../../../../../assets/basnet.pdf";
 
-const Summary: React.FC = () => (
-    <div>
+const Summary: React.FC = () => {
+    return <div>
         <div className="key email">sudbasnet10@gmail.com <br /> ---------------------</div>
         <ul>
             <li className="summary-li"><span className="key">Name:</span> Sudeep Basnet</li>
@@ -12,10 +13,10 @@ const Summary: React.FC = () => (
             <li className="summary-li"><span className="key">2016/01 - 2019/09:</span> Grad. Research Assistant</li>
             <li className="summary-li"><span className="key">2012/07 - 2016/12:</span> Engineer - Software & Data</li>
             <li className="summary-li"><span className="key">Education:</span> M.S. in Computer Science (2019)</li>
-            <li className="summary-li"><span className="key">Resume:</span><a target="_blank" href=""
-                className="about-link">[Download]</a></li>
+            <li className="summary-li"><span className="key">Resume:</span><a target="_blank" rel="noreferrer" href={ResumePdf}
+            className="about-link" download="basnet-resume.pdf">[Download]</a></li>
         </ul>
     </div>
-);
+};
 
 export default Summary;

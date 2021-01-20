@@ -132,3 +132,14 @@ button.tab-active{
     text-decoration: none;
     color: #E85858;
 }
+
+.question-box {
+    /* width: 540px;
+    height: 250px; */
+    /* font-family: Inconsolata; */
+    text-align: left;
+}
+
+.static-text{
+    color: #83C7B4
+}

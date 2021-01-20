@@ -1,5 +1,6 @@
 import React from 'react';
 import './Resume.css';
+import ResumePdf from "../../../assets/basnet.pdf";
 
 const Resume: React.FC = () => {
     return <main className="main-resume">
@@ -88,7 +89,7 @@ const Resume: React.FC = () => {
             Systems Administration
         </p>
 
-        <form id='download' target="_blank" method="get" action="assets/basnet_sudeep_resume.pdf">
+        <form id='download' target="_blank" method="get" action={ResumePdf}>
             <button id='btn-download' type="submit">Download Resume</button>
         </form>
         </main>

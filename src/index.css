@@ -97,7 +97,7 @@ a.disabled {
 
 .main {
   display: grid;
-  grid-template-rows: minmax(100px, 300px) minmax(min-content, 40vh);
+  grid-template-rows: minmax(100px, 250px) minmax(min-content, 40vh);
   grid-template-areas:        
   "game"
   "terminal-section";

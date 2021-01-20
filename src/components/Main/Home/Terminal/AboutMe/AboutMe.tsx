@@ -12,6 +12,7 @@ interface IAboutMeProps {
 const AboutMe: React.FC<IAboutMeProps> = (props) => (
     <div className="terminal-text">
         <Dialog dialog={props.dialog} />
+        <span className="static-text">Please select from below to know more.</span>
         <div>
             <ul className="question-list">
                 {props.questions.filter(q => q.id > 0).map(q =>
