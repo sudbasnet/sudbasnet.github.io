@@ -11,7 +11,7 @@ body{
 .wrapper-home {
   display: grid;
   grid-template-columns: 1fr minmax(100px, 720px) 1fr;
-  grid-template-rows: 10vh minmax(100px, 78vh) 10vh;
+  grid-template-rows: 10vh 80vh 10vh;
   grid-template-areas:
       ".  header ."
       "main  main   main"
@@ -43,7 +43,7 @@ body{
 
 .main, .main-resume, .main-adventures {
   grid-area: main;
-  width: 100%;
+  max-width: 100%;
 }
 
 .footer {
@@ -135,4 +135,8 @@ a.disabled {
   padding: 10px;
   width: 90%;
   height: 90%;
+}
+
+.main-resume {
+  padding: 20px;
 }

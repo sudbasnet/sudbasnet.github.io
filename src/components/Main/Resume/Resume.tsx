@@ -29,8 +29,7 @@ const Resume: React.FC = () => {
             <li>Designed Cloud Data Warehouse in Snowflake along with stored procedures in JavaScript, and automated data
                 loading with Python.</li>
             <li>Debugged and resolved issues in reporting dashboards of using MicroStrategy Developer, MicroStrategy
-                Architect
-                and MicroStrategy Intelligence Server.</li>
+                Architect and MicroStrategy Intelligence Server.</li>
         </ul>
 
         <h3 className="job-title">Graduate Research and Teaching Assistant
@@ -47,8 +46,7 @@ const Resume: React.FC = () => {
             <li>Data Mining, Data Analysis and Data Management using Python, R and Java, utilizing parallel computing on
                 Nebraska’s second-fastest High-Performance Computing servers.</li>
             <li>Development and management of PHP backed application, and Data Visualization using HTML/CSS, KnockoutJS,
-                Google
-                Maps JavaScript API and MySQL database. <a target="_blank" rel="noreferrer" className="resume-link"
+                Google Maps JavaScript API and MySQL database. <a target="_blank" rel="noreferrer" className="resume-link"
                     href="https://cse.unl.edu/~surge/">View</a></li>
         </ul>
 
