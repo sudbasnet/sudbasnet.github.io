@@ -4,6 +4,7 @@ import Question from './Question';
 import { questionsType } from '../../dialogs';
 
 interface IAboutMeProps {
+    dialogKey: string;
     dialog: string;
     questions: questionsType;
     updateDialog: (goto: string) => void;
@@ -11,7 +12,7 @@ interface IAboutMeProps {
 
 const AboutMe: React.FC<IAboutMeProps> = (props) => (
     <div className="terminal-text">
-        <Dialog dialog={props.dialog} />
+        <Dialog dialogKey={props.dialogKey} dialog={props.dialog} />
         <span className="static-text">Please select from below to know more.</span>
         <div>
             <ul className="question-list">

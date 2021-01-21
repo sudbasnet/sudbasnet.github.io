@@ -3,14 +3,16 @@ import DIALOGS, { questionsType } from './dialogs';
 import Terminal from './Terminal/Terminal';
 import Game from './Game/Game';
 
-const initialDialog = DIALOGS["Start"]
+const initialDialogKey = "Start"
+const initialDialog = DIALOGS[initialDialogKey]
 
 class Home extends Component {
-    state: { questions: questionsType, dialog: string, displayTab: string };
+    state: { dialogKey: string, questions: questionsType, dialog: string, displayTab: string };
 
     constructor(props: any) {
         super(props);
         this.state = {
+            dialogKey: initialDialogKey,
             dialog: initialDialog.message,
             questions: initialDialog.questions,
             displayTab: 'default'
@@ -20,7 +22,7 @@ class Home extends Component {
     updateDialogHandler(goto: string): void {
         const newDialog = DIALOGS[goto].message;
         const newQuestions = DIALOGS[goto].questions;
-        this.setState({ dialog: newDialog, questions: newQuestions });
+        this.setState({ dialogKey: goto, dialog: newDialog, questions: newQuestions });
     }
 
     changeTabHandler(requestingTab: string): void {
@@ -37,9 +39,10 @@ class Home extends Component {
         const questions = this.state.questions;
         const dialog = this.state.dialog;
         const displayTab = this.state.displayTab;
+        const dialogKey = this.state.dialogKey;
         return <main className="main">
             <Game />
-            <Terminal dialog={dialog} questions={questions} displayTab={displayTab} changeTab={this.changeTabHandler.bind(this)} updateDialog={this.updateDialogHandler.bind(this)} />
+            <Terminal dialog={dialog} dialogKey={dialogKey} questions={questions} displayTab={displayTab} changeTab={this.changeTabHandler.bind(this)} updateDialog={this.updateDialogHandler.bind(this)} />
         </main>
     }
 }

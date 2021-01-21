@@ -1,5 +1,5 @@
 import React from 'react';
-import ResumePdf from "../../../../../assets/basnet.pdf";
+import ResumeDownloadLink from '../ResumeDownloadLink';
 
 const Summary: React.FC = () => {
     return <div>
@@ -13,8 +13,7 @@ const Summary: React.FC = () => {
             <li className="summary-li"><span className="key">2016/01 - 2019/09:</span> Grad. Research Assistant</li>
             <li className="summary-li"><span className="key">2012/07 - 2016/12:</span> Engineer - Software & Data</li>
             <li className="summary-li"><span className="key">Education:</span> M.S. in Computer Science (2019)</li>
-            <li className="summary-li"><span className="key">Resume:</span><a target="_blank" rel="noreferrer" href={ResumePdf}
-            className="about-link" download="basnet-resume.pdf">[Download]</a></li>
+            <li className="summary-li"><span className="key">Resume:</span> <ResumeDownloadLink /></li>
         </ul>
     </div>
 };

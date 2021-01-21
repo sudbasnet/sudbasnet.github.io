@@ -140,7 +140,7 @@ const jsonText: conversation = [
     {
         title: "resume",
         tags: "",
-        body: "Please find my resume in the header above.\n[[RESTART!|Start]]",
+        body: "You can download my resume here:\n[[RESTART!|Start]]",
         position: {
             "x": 1413,
             "y": 139

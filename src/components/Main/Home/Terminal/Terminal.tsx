@@ -7,6 +7,7 @@ import { questionsType } from '../dialogs';
 
 
 interface ITerminalProps {
+    dialogKey: string,
     dialog: string;
     questions: questionsType;
     updateDialog: (goto: string) => void;
@@ -17,7 +18,7 @@ interface ITerminalProps {
 const Terminal: React.FC<ITerminalProps> = props => {
     let selectedTab = <Summary />;
     if (props.displayTab === 'default') {
-        selectedTab = <AboutMe dialog={props.dialog} questions={props.questions} updateDialog={props.updateDialog} />
+        selectedTab = <AboutMe dialogKey={props.dialogKey} dialog={props.dialog} questions={props.questions} updateDialog={props.updateDialog} />
     }
     return <div className="terminal-section">
         <div className="terminal-content">
