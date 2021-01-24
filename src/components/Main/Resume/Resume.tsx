@@ -5,13 +5,14 @@ import ResumePdf from "../../../assets/basnet.pdf";
 const Resume: React.FC = () => {
     return <main className="main-resume">
         <h2 className="heading1">Summary</h2>
-        <p>Dedicated, career-oriented individual with 4.5 years of professional experience as a Software Engineer and Data
-            Analyst. Graduated with a master’s degree in Computer Science from the University of Nebraska - Lincoln. Has worked
-            in Agile methodology and used technology such as Java, Oracle, Python and JavaScript on Windows and Unix platforms.
-            Interested in Software Development and Data Science.</p>
+        <p>A dedicated problem solver with professional experience in Software Development and Data Engineering. Graduated with a master’s degree in Computer Science from the University of Nebraska - Lincoln (Aug-2019). Has worked
+            in Agile methodology, with large teams, and worked in Python, C#, Java, SQL and JavaScript on Windows and Unix platforms. Interested in Software Development.</p>
 
         <h3 className="heading2">Programming Skills:</h3>
         <p>Python, C#, Typescript, JavaScript, HTML/CSS, R, SQL, NoSQL</p>
+        <p>Python is my favorite programming language, especially for technical interviews and some personal projects. I have trained and worked with C# and TypeScript for my current job, 
+            I enjoy TypeScript a bit more than any of the other languages I've recently learned. I have also been taking courses and learning NodeJS and React with TypeScript on Udemy.</p> <p> As a data engineer, I have worked 
+            extensively with SQL, Databases, and Data Models. Data is where most of my experience lie, but I have been pushing to get more of a Software Engineering type of role.</p>
 
         <h3 className="heading2">Other Technical Skills:</h3>
         <p className="no-justify">NodeJS, React, Vue, GIT and SVN, Data Analysis, Data Visualization, Database Development, Azure DevOps, JIRA, Snowflake Cloud Data Warehouse, MicroStrategy</p>
@@ -23,14 +24,13 @@ const Resume: React.FC = () => {
         </h3>
         <p><a target="_blank" rel="noreferrer" className="resume-link" href="https://www.logicinfo.com/">Logic Information Systems, Bloomington, MN,
                 USA</a></p>
+            <p> My experience at Logic varies with each client, Logic’s clients range from mid-sized retailers to some of the largest retailers in the world, across nearly every type of retail business model including grocery, 
+            hardlines, softlines, fashion, and government. My main roles so far have been as a Software Developer, Data Engineer, and BI Developer. </p>
         <ul>
-            <li>Developing omni-channel e-commerce solutions with C#, TypeScript, and HTML/CSS in .NET and .NET Core.</li>
-            <li>Developed korn shell-script programs for data manipulation and application of business specific logic in
-                Oracle’s enterprise data warehouse.</li>
-            <li>Designed Cloud Data Warehouse in Snowflake along with stored procedures in JavaScript, and automated data
-                loading with Python.</li>
-            <li>Debugged and resolved issues in reporting dashboards of using MicroStrategy Developer, MicroStrategy
-                Architect and MicroStrategy Intelligence Server.</li>
+            <li>Developed omni-channel e-commerce solutions with C#, TypeScript, and HTML/CSS in .NET and .NET Core.</li>
+            <li>Developed korn shell-script programs for data manipulation and application of business specific logic in Oracle’s enterprise data warehouse.</li>
+            <li>Designed Cloud Data Warehouse in Snowflake along with stored procedures in JavaScript, and automated data loading with Python.</li>
+            <li>Debugged and resolved issues in reporting dashboards of using MicroStrategy Developer, MicroStrategy Architect and MicroStrategy Intelligence Server.</li>
         </ul>
 
         <h3 className="job-title">Graduate Research and Teaching Assistant
@@ -51,7 +51,7 @@ const Resume: React.FC = () => {
                     href="https://cse.unl.edu/~surge/">View</a></li>
         </ul>
 
-        <h3 className="job-title">Software Engineer – Data Operations
+        <h3 className="job-title">Data (Software) Engineer
             <div className="duration">July 2012 – Dec 2016</div>
         </h3>
         <p>
@@ -59,20 +59,12 @@ const Resume: React.FC = () => {
                 of Cotiviti Healthcare, Waltham MA)</a>
         </p>
         <ul>
-            <li>Software Development using Java and Oracle 11g on Windows and UNIX platforms. Involved in Integration, 
-                Analysis, Design & Development, Testing and Production support phases.</li>
-            <li>Data Analysis of US healthcare data (HIPAA protected medical data). Prepared Analytical Reports per
-                client-requirements using OBIEE and BIP.</li>
-            <li>Implemented Oracle PL/SQL procedures, functions, triggers and packages for data management and statistical
-                report generation on US healthcare data.</li>
-            <li>Developed ETL procedures, documented and validated complex business rules for data transformation. Prepared
-                technical specification, reviewed code, and performed unit testing for client-specific change requests.</li>
-            <li>Optimized multiple large clients by 60 – 70% in processing time using parallel processes, re-designing
-                back-end
-                jobs, performance tuning, normalization and query optimization.</li>
-            <li>Led multiple teams of Software Engineers through different projects for 2 years. Responsible for Code
-                Quality,
-                Code Reviews, Design Reviews, Code documentation and Design documentation for maintainability.</li>
+            <li>Data Analysis of US healthcare data (HIPAA protected medical data). Prepared Analytical Reports per client-requirements using OBIEE and BIP.</li>
+            <li>Implemented Oracle PL/SQL procedures, functions, triggers and packages for data management and statistical report generation on US healthcare data.</li>
+            <li>Developed ETL procedures, documented and validated complex business rules for data transformation. Prepared technical specification, reviewed code, and performed unit testing for client-specific change requests.</li>
+            <li>Optimized multiple large clients by 60 – 70% in processing time using parallel processes, re-designing back-end jobs, performance tuning, normalization and query optimization.</li>
+            <li>Led multiple teams of Software Engineers through different projects for 2 years. Responsible for Code Quality, Code Reviews, Design Reviews, Code documentation and Design documentation for maintainability.</li>
+            <li>Software Development using Java and Oracle 11g on Windows and UNIX platforms for 1 year. Involved in Integration, Analysis, Design & Development, Testing and Production support phases.</li>
         </ul>
 
 
