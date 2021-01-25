@@ -30,7 +30,7 @@ const Resume: React.FC = () => {
             <li>Developed omni-channel e-commerce solutions with C#, TypeScript, and HTML/CSS in .NET and .NET Core.</li>
             <li>Developed korn shell-script programs for data manipulation and application of business specific logic in Oracle’s enterprise data warehouse.</li>
             <li>Designed Cloud Data Warehouse in Snowflake along with stored procedures in JavaScript, and automated data loading with Python.</li>
-            <li>Debugged and resolved issues in reporting dashboards of using MicroStrategy Developer, MicroStrategy Architect and MicroStrategy Intelligence Server.</li>
+            <li>Debugged and resolved issues in reporting dashboards in MicroStrategy Developer, MicroStrategy Architect and MicroStrategy Intelligence Server.</li>
         </ul>
 
         <h3 className="job-title">Graduate Research and Teaching Assistant
@@ -44,7 +44,7 @@ const Resume: React.FC = () => {
                     Link</a></li>
             <li>Developed a scalable clustering algorithm using Python to perform unsupervised learning on GIS data, with
                 performance gain up to 60% compared to state-of-art algorithms. Published and presented Research Paper.</li>
-            <li>Data Mining, Data Analysis and Data Management using Python, R and Java, utilizing parallel computing on
+            <li>Data Mining, Data Analysis and Data Management using Python and R, utilizing parallel computing on
                 Nebraska’s second-fastest High-Performance Computing servers.</li>
             <li>Development and management of PHP backed application, and Data Visualization using HTML/CSS, KnockoutJS,
                 Google Maps JavaScript API and MySQL database. <a target="_blank" rel="noreferrer" className="resume-link"
@@ -62,8 +62,8 @@ const Resume: React.FC = () => {
             <li>Data Analysis of US healthcare data (HIPAA protected medical data). Prepared Analytical Reports per client-requirements using OBIEE and BIP.</li>
             <li>Implemented Oracle PL/SQL procedures, functions, triggers and packages for data management and statistical report generation on US healthcare data.</li>
             <li>Developed ETL procedures, documented and validated complex business rules for data transformation. Prepared technical specification, reviewed code, and performed unit testing for client-specific change requests.</li>
-            <li>Optimized multiple large clients by 60 – 70% in processing time using parallel processes, re-designing back-end jobs, performance tuning, normalization and query optimization.</li>
-            <li>Led multiple teams of Software Engineers through different projects for 2 years. Responsible for Code Quality, Code Reviews, Design Reviews, Code documentation and Design documentation for maintainability.</li>
+            <li>Optimized multiple large ETL processes by 60 – 70% in processing time using parallelization, re-designing back-end jobs, performance tuning, normalization and query optimization.</li>
+            <li>Led multiple teams of Data and Software Engineers through different projects for 2 years. Responsible for Code Quality, Code Reviews, Design Reviews, Code documentation and Design documentation for maintainability.</li>
             <li>Software Development using Java and Oracle 11g on Windows and UNIX platforms for 1 year. Involved in Integration, Analysis, Design & Development, Testing and Production support phases.</li>
         </ul>
 
