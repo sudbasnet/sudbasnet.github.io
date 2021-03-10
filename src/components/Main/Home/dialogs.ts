@@ -70,7 +70,7 @@ const jsonText: conversation = [
     {
         title: "interests",
         tags: "",
-        body: "I think of myself as a generalist, I have varying interests but they all fall under the umbrellas of Software Development and Data Engineering. \n[[What kind of skills you got?|skills]]\n[[How do I contact you?|email]]",
+        body: "I think of myself as a generalist, but I aim to be a Software Engineer, preferably fullstack, or backend. \n[[What kind of skills you got?|skills]]\n[[How do I contact you?|email]]",
         position: {
             "x": 939,
             "y": -136
@@ -80,7 +80,7 @@ const jsonText: conversation = [
     {
         title: "skills",
         tags: "",
-        body: "I'm pretty good with Python, C#, TypeScript, React, Vue, R, and HTML/CSS. I'm also experienced in Data Engineering, Database Development, Systems Admin.(LINUX), Cloud DataWarehousing, and Oracle based tech.\n[[Lets look at your resume.|resume]]\n[[How can we get in touch?|email]]",
+        body: "I'm pretty good with Python, TypeScript, C#, React, Vue, R, and HTML/CSS. I'm also experienced in Academic Research, Data Engineering, Systems Admin.(LINUX), Cloud DataWarehousing.\n[[Lets look at your resume.|resume]]\n[[How can we get in touch?|email]]",
         position: {
             "x": 1227,
             "y": -137
@@ -90,7 +90,7 @@ const jsonText: conversation = [
     {
         title: "work",
         tags: "",
-        body: "I mostly worked on the data side with Oracle PL/SQL and some Java to develop ETL tools and databases for large-scale Enterprise data solutions.\n[[So, why do Masters?|whymasters]]\n[[Did you also work during your studies?|gradwork]]\n[[Where can I find more details?|resumepre]]\n",
+        body: "I mostly worked on the data side with Oracle PL/SQL and Java to develop ETL tools and data warehouses for large-scale Enterprises, in the Healthcare analytics domain.\n[[So, why do Masters?|whymasters]]\n[[Did you also work during your studies?|gradwork]]\n[[Where can I find more details?|resumepre]]\n",
         position: {
             "x": 9,
             "y": -206
@@ -110,7 +110,7 @@ const jsonText: conversation = [
     {
         title: "gradwork",
         tags: "",
-        body: "I was primarily involved in research and development on spatial-data mining and Agent-based Modeling. I used Python, Java, R, JavaScript and SQL.\n[[I'd like to know more.|resumepre]]\n[[Still looking for jobs?|jobsearch]]\n",
+        body: "I think getting a masters degree was one of the best decision of my life. I learned alot, worked on research and development on spatial-data mining and Agent-based Modeling. I used Python, Java, R, JavaScript and SQL.\n[[I'd like to know more.|resumepre]]\n[[Still looking for jobs?|jobsearch]]\n",
         position: {
             "x": 370,
             "y": -126
@@ -120,7 +120,7 @@ const jsonText: conversation = [
     {
         title: "whymasters",
         tags: "",
-        body: "I thought I had some gaps in my knowledge, so I decided to study Computer Science ... It was also for getting better job oppurtunities :)\n[[How did it go?|gradwork]]",
+        body: "I thought I had some gaps in my knowledge, so I decided to study Computer Science ... It was also for getting better job oppurtunities in Software Engineering. :)\n[[How did it go?|gradwork]]",
         position: {
             "x": 355,
             "y": 139

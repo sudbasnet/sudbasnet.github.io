@@ -12,7 +12,7 @@ const Summary: React.FC = () => {
             <li className="summary-li"><span className="key">Status:</span> Open to Job Oppurtunities</li>
             <li className="summary-li"><span className="key">2019/10 - Current:</span> Technical Consultant</li>
             <li className="summary-li"><span className="key">2016/01 - 2019/09:</span> Grad. Research Assistant</li>
-            <li className="summary-li"><span className="key">2012/07 - 2016/12:</span> Data (Software) Engineer</li>
+            <li className="summary-li"><span className="key">2012/07 - 2016/12:</span> Data/Software Engineer</li>
             <li className="summary-li"><span className="key">Education:</span> M.S. in Computer Science (2019)</li>
             <li className="summary-li"><span className="key">Resume:</span> <ResumeDownloadLink /></li>
         </ul>

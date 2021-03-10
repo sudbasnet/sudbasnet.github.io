@@ -51,7 +51,7 @@ const Resume: React.FC = () => {
                     href="https://cse.unl.edu/~surge/">View</a></li>
         </ul>
 
-        <h3 className="job-title">Data (Software) Engineer
+        <h3 className="job-title">Data/Software Engineer
             <div className="duration">July 2012 – Dec 2016</div>
         </h3>
         <p>
