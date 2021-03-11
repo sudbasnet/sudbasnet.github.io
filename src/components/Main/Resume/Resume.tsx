@@ -10,9 +10,10 @@ const Resume: React.FC = () => {
 
         <h3 className="heading2">Programming Skills:</h3>
         <p>Python, C#, Typescript, JavaScript, HTML/CSS, R, SQL, NoSQL</p>
-        <p>Python is my favorite programming language, especially for technical interviews and some personal projects. I have trained and worked with C# and TypeScript for my current job, 
-            I enjoy TypeScript a bit more than any of the other languages I've recently learned. I have also been taking courses and learning NodeJS and React with TypeScript on Udemy.</p> <p> As a data engineer, I have worked 
-            extensively with SQL, Databases, and Data Models. Data is where most of my experience lie, but I have been pushing to get more of a Software Engineering type of role.</p>
+        <p>Python might be my favorite programming language at the moment, especially for technical interviews and some personal projects. I have trained and worked with C# and TypeScript for my current job, 
+            I focused more on TypeScript and I enjoy it a bit more than any of the other languages I've recently learned, TypeScript is very stable, and there's alot of support for it these days, and you can do the whole MERN MEVN and MEAN stack with TypeScript. 
+            If I get more time, I'd like to do more C++, I have done some C++ in the past but only for small projects so I'd like to try building something useful with it. </p> <p> I have also worked 
+            extensively with SQL, Databases, and Data Models in my Data Engineering roles. It is where a substantial portion of my experience lie, but my primary interest area is Software Engineering.</p>
 
         <h3 className="heading2">Other Technical Skills:</h3>
         <p className="no-justify">NodeJS, React, Vue, GIT and SVN, Data Analysis, Data Visualization, Database Development, Azure DevOps, JIRA, Snowflake Cloud Data Warehouse, MicroStrategy</p>
