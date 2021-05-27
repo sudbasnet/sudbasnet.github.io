@@ -6,11 +6,7 @@ const Summary: React.FC = () => {
         <div className="key email">sudbasnet10@gmail.com <br /> ---------------------</div>
         <ul>
             <li className="summary-li"><span className="key">Name:</span> Sudeep Basnet</li>
-<<<<<<< HEAD
-            <li className="summary-li"><span className="key">Interests:</span> Software Engineering</li>
-=======
             <li className="summary-li"><span className="key">Interests:</span> Software Eng. & Web Development</li>
->>>>>>> bf3ae9c2814403824ac6b0029004c23319d5964b
             <li className="summary-li"><span className="key">Skills:</span> Python, TypeScript, C#, SQL, NoSQL</li>
             <li className="summary-li"><span className="key">Other:</span> Node, React, Vue, GIT</li>
             <li className="summary-li"><span className="key">Status:</span> Open to Job Oppurtunities</li>
