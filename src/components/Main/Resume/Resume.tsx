@@ -5,18 +5,17 @@ import ResumePdf from "../../../assets/basnet.pdf";
 const Resume: React.FC = () => {
     return <main className="main-resume">
         <h2 className="heading1">Summary</h2>
-        <p>A dedicated problem solver with professional experience in Software Development and Data Engineering. Graduated with a master’s degree in Computer Science from the University of Nebraska - Lincoln (Aug-2019). Has worked
-            in Agile methodology, with large teams, and worked in Python, C#, Java, SQL and JavaScript on Windows and Unix platforms. Interested in Software Development.</p>
+        <p>Interested in Software Engineering and Web Development.</p>
 
         <h3 className="heading2">Programming Skills:</h3>
-        <p>Python, C#, Typescript, JavaScript, HTML/CSS, R, SQL, NoSQL</p>
-        <p>Python might be my favorite programming language at the moment, especially for technical interviews and some personal projects. I have trained and worked with C# and TypeScript for my current job,
+        <p>Python, Dart, Typescript, JavaScript, HTML/CSS/SASS, SQL</p>
+        <p>I'm learning Dart and loving it quite a lot. Though python might still be my favorite programming language for technical interviews. I trained and worked with C# and TypeScript for my last job,
         I focused more on TypeScript and I enjoy it a bit more than any of the other languages I've recently learned, TypeScript is very stable, and there's alot of support for it these days, and you can do the whole MERN MEVN and MEAN stack with TypeScript.
         </p>
-        <p> I have also worked extensively with SQL, Databases, and Data Models in my Data Engineering roles. It is where a substantial portion of my experience lie, but my primary interest area is Software Engineering.</p>
+        <p> I have also worked extensively with SQL, Databases, and Data Models in my Data Engineering roles. But my primary interest area is Software Engineering.</p>
 
         <h3 className="heading2">Other Technical Skills:</h3>
-        <p className="no-justify">NodeJS, React, Vue, GIT and SVN, Data Analysis, Data Visualization, Database Development, Azure DevOps, JIRA, Snowflake Cloud Data Warehouse, MicroStrategy</p>
+        <p className="no-justify">NodeJS, Angular, React, GIT, Data Analysis, Data Visualization, Database Development, Snowflake Cloud Data Warehouse, MicroStrategy</p>
 
         <h2 className="heading1">Work Experience</h2>
 
@@ -24,9 +23,7 @@ const Resume: React.FC = () => {
             <div className="duration"> June 2021 – Current</div>
         </h3>
         <p><a target="_blank" rel="noreferrer" className="resume-link" href="https://careers.google.com/">Google LLC, Sunnyvale, CA, USA</a></p>
-        <p> I am going to build a CRM (Customer Relationship Management) for Google and learn alot from my very talented teammates. There are quite a few CRMs out there in the market,
-        for example; SalesForce, HubSpot, Zendesk, etc. What I work on is built specifically for the infrastructure, software, and teams at Google. I am going to focus on the FrontEnd first,
-            but after a while (hopefully) I will be taking care of pretty much the full architecture.</p>
+        <p> I work on Google's internal CRM (Customer Relationship Management).</p>
 
         <h3 className="job-title">Technical Consultant
             <div className="duration"> Oct 2019 – May 2021</div>
@@ -68,10 +65,6 @@ const Resume: React.FC = () => {
                 of Cotiviti Healthcare, Waltham MA)</a>
         </p>
         <ul>
-            <li>Data Analysis of US healthcare data (HIPAA protected medical data). Prepared Analytical Reports per client-requirements using OBIEE and BIP.</li>
-            <li>Implemented Oracle PL/SQL procedures, functions, triggers and packages for data management and statistical report generation on US healthcare data.</li>
-            <li>Developed ETL procedures, documented and validated complex business rules for data transformation. Prepared technical specification, reviewed code, and performed unit testing for client-specific change requests.</li>
-            <li>Optimized multiple large ETL processes by 60 – 70% in processing time using parallelization, re-designing back-end jobs, performance tuning, normalization and query optimization.</li>
             <li>Led multiple teams of Data and Software Engineers through different projects for 2 years. Responsible for Code Quality, Code Reviews, Design Reviews, Code documentation and Design documentation for maintainability.</li>
             <li>Software Development using Java and Oracle 11g on Windows and UNIX platforms for 1 year. Involved in Integration, Analysis, Design & Development, Testing and Production support phases.</li>
         </ul>

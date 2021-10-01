@@ -143,3 +143,8 @@ button.tab-active{
 .static-text{
     color: #83C7B4
 }
+
+.skill-icon{
+    height: 1em;
+    padding-left: 0.5em;
+}

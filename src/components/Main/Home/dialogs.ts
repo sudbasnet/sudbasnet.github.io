@@ -40,7 +40,7 @@ const jsonText: conversation = [
     {
         title: "intro",
         tags: "",
-        body: "I am currently working as a Technical Consultant in Minnepolis. In 2019, I got my Master's in Computer Science. Before that, I used to work in a hybrid role functioning as a Data Engineer and Software Developer. \n[[Tell me about your current position.|logic]]\n[[Where did you graduate from?|mscs]]\n[[Tell me about your old job.|work]]\n\n",
+        body: "I am currently working as a Software Engineer in MTV, CA. In 2019, I got my Master's in Computer Science. I have also worked as a Technical Consultant, and Software / Data Engineer. \n[[Tell me about your current position.|google]]\n[[Where did you graduate from?|mscs]]\n[[Tell me about your old job.|work]]\n\n",
         position: {
             "x": -288,
             "y": -130
@@ -60,7 +60,7 @@ const jsonText: conversation = [
     {
         title: "jobsearch",
         tags: "",
-        body: "I'm open to new opportunities\n[[What are your interests?|interests]]",
+        body: "I'm open to new opportunities.\n[[What are your interests?|interests]]",
         position: {
             "x": 657,
             "y": -137
@@ -70,7 +70,7 @@ const jsonText: conversation = [
     {
         title: "interests",
         tags: "",
-        body: "I think of myself as a generalist, but I aim to be a Software Engineer, preferably fullstack, or backend. \n[[What kind of skills you got?|skills]]\n[[How do I contact you?|email]]",
+        body: "I think of myself as a generalist, but I aim to be a good Software Engineer, preferably fullstack, or frontend. \n[[What kind of skills you got?|skills]]\n[[How do I contact you?|email]]",
         position: {
             "x": 939,
             "y": -136
@@ -80,7 +80,7 @@ const jsonText: conversation = [
     {
         title: "skills",
         tags: "",
-        body: "I'm pretty good with Python, TypeScript, C#, React, Vue, R, and HTML/CSS. I'm also experienced in Academic Research, Data Engineering, Systems Admin.(LINUX), Cloud DataWarehousing.\n[[Lets look at your resume.|resume]]\n[[How can we get in touch?|email]]",
+        body: "I'm pretty good with Python, Dart, TypeScript, C#, React, HTML/CSS/SASS, and SQL. I'm also experienced in Academic Research, Data Engineering, and Cloud DataWarehousing.\n[[Lets look at your resume.|resume]]\n[[How can we get in touch?|email]]",
         position: {
             "x": 1227,
             "y": -137
@@ -90,7 +90,7 @@ const jsonText: conversation = [
     {
         title: "work",
         tags: "",
-        body: "I mostly worked on the data side with Oracle PL/SQL and Java to develop ETL tools and data warehouses for large-scale Enterprises, in the Healthcare analytics domain.\n[[So, why do Masters?|whymasters]]\n[[Did you also work during your studies?|gradwork]]\n[[Where can I find more details?|resumepre]]\n",
+        body: "I have had a mix of experiences, my main functions have been as a Software Engineer, Data Engineer, and BI Developer.\n[[So, why do Masters?|whymasters]]\n[[Did you also work during your studies?|gradwork]]\n[[Where can I find more details?|resumepre]]\n",
         position: {
             "x": 9,
             "y": -206
@@ -120,7 +120,7 @@ const jsonText: conversation = [
     {
         title: "whymasters",
         tags: "",
-        body: "I thought I had some gaps in my knowledge, so I decided to study Computer Science ... It was also for getting better job oppurtunities in Software Engineering. :)\n[[How did it go?|gradwork]]",
+        body: "I thought I had some gaps in my knowledge, so I decided to study Computer Science ... It was also for getting better job oppurtunities in Software Engineering; which, I believe, worked out for me :)\n[[How did it go?|gradwork]]",
         position: {
             "x": 355,
             "y": 139
@@ -148,9 +148,9 @@ const jsonText: conversation = [
         colorId: 0
     },
     {
-        title: "logic",
+        title: "google",
         tags: "",
-        body: "I've been working at Logic since Oct-2019 as a Technical Consultant. My exact role depends on the client I am working with, my main roles have been Software Developer, Data Engineer, and BI Developer.\n[[And the work before that?|work]]\n[[And your masters?|mscs]]",
+        body: "I've been working as a Software Engineer at Google since June-2021. I am developing an internal CRM under the Google Ads product area.\n[[And the work before that?|work]]\n[[And your masters?|mscs]]",
         position: {
             "x": -296,
             "y": 132
