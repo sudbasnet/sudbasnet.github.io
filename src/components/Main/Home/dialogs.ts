@@ -40,7 +40,7 @@ const jsonText: conversation = [
     {
         title: "intro",
         tags: "",
-        body: "I am currently working as a Software Engineer in MTV, CA. In 2019, I got my Master's in Computer Science. I have also worked as a Technical Consultant, and Software / Data Engineer. \n[[Tell me about your current position.|google]]\n[[Where did you graduate from?|mscs]]\n[[Tell me about your old job.|work]]\n\n",
+        body: "I am currently working as a Software Engineer for Google, in MTV, CA. In 2019, I got my Master's in Computer Science. I have also worked as a Technical Consultant, and Software / Data Engineer. \n[[Tell me about your current position.|google]]\n[[Where did you graduate from?|mscs]]\n[[Tell me about your old job.|work]]\n\n",
         position: {
             "x": -288,
             "y": -130
@@ -80,7 +80,7 @@ const jsonText: conversation = [
     {
         title: "skills",
         tags: "",
-        body: "I'm pretty good with Python, Dart, TypeScript, C#, React, HTML/CSS/SASS, and SQL. I'm also experienced in Academic Research, Data Engineering, and Cloud DataWarehousing.\n[[Lets look at your resume.|resume]]\n[[How can we get in touch?|email]]",
+        body: "I'm pretty good with Python, Dart, TypeScript, React, HTML/CSS/SASS, and SQL. I'm also experienced in Academic Research, Data Engineering, and Cloud DataWarehousing.\n[[Lets look at your resume.|resume]]\n[[How can we get in touch?|email]]",
         position: {
             "x": 1227,
             "y": -137
@@ -150,7 +150,7 @@ const jsonText: conversation = [
     {
         title: "google",
         tags: "",
-        body: "I've been working as a Software Engineer at Google since June-2021. I am developing an internal CRM under the Google Ads product area.\n[[And the work before that?|work]]\n[[And your masters?|mscs]]",
+        body: "I've been a Software Engineer at Google since June-2021. I work on their internal CRM, in the Google Ads product area.\n[[And the work before that?|work]]\n[[And your masters?|mscs]]",
         position: {
             "x": -296,
             "y": 132

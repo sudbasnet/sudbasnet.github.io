@@ -10,12 +10,12 @@ const Resume: React.FC = () => {
         <h3 className="heading2">Programming Skills:</h3>
         <p>Python, Dart, Typescript, JavaScript, HTML/CSS/SASS, SQL</p>
         <p>I'm learning Dart and loving it quite a lot. Though python might still be my favorite programming language for technical interviews. I trained and worked with C# and TypeScript for my last job,
-        I focused more on TypeScript and I enjoy it a bit more than any of the other languages I've recently learned, TypeScript is very stable, and there's alot of support for it these days, and you can do the whole MERN MEVN and MEAN stack with TypeScript.
+        I focused more on TypeScript. It is another language I enjoy a bit more than any of the other languages I've recently learned. There's alot of support for TypeScript and Dart these days, and you can pretty much do Fullstack development with them.
         </p>
         <p> I have also worked extensively with SQL, Databases, and Data Models in my Data Engineering roles. But my primary interest area is Software Engineering.</p>
 
         <h3 className="heading2">Other Technical Skills:</h3>
-        <p className="no-justify">NodeJS, Angular, React, GIT, Data Analysis, Data Visualization, Database Development, Snowflake Cloud Data Warehouse, MicroStrategy</p>
+        <p className="no-justify">NodeJS, Angular, React, GIT, Data Analysis, Data Visualization, Database Development, Snowflake Cloud Data Warehouse</p>
 
         <h2 className="heading1">Work Experience</h2>
 
@@ -65,8 +65,9 @@ const Resume: React.FC = () => {
                 of Cotiviti Healthcare, Waltham MA)</a>
         </p>
         <ul>
-            <li>Led multiple teams of Data and Software Engineers through different projects for 2 years. Responsible for Code Quality, Code Reviews, Design Reviews, Code documentation and Design documentation for maintainability.</li>
-            <li>Software Development using Java and Oracle 11g on Windows and UNIX platforms for 1 year. Involved in Integration, Analysis, Design & Development, Testing and Production support phases.</li>
+            <li>Responsible for Code Quality, Code Reviews, Design Reviews, Code documentation and Design documentation for maintainability. </li>
+            <li>Involved in Integration, Analysis, Design & Development, Testing and Production support phases.</li>
+            <li>Led multiple teams of Data and Software Engineers through different projects for 2 years. </li>
         </ul>
 
 
