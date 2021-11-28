@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.622bed68.chunk.css",
-    "main.js": "/static/js/main.f9c789ed.chunk.js",
-    "main.js.map": "/static/js/main.f9c789ed.chunk.js.map",
+    "main.js": "/static/js/main.381dd591.chunk.js",
+    "main.js.map": "/static/js/main.381dd591.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1c952347.js",
     "runtime-main.js.map": "/static/js/runtime-main.1c952347.js.map",
     "static/js/2.849f8e28.chunk.js": "/static/js/2.849f8e28.chunk.js",
@@ -10,13 +10,13 @@
     "index.html": "/index.html",
     "static/css/main.622bed68.chunk.css.map": "/static/css/main.622bed68.chunk.css.map",
     "static/js/2.849f8e28.chunk.js.LICENSE.txt": "/static/js/2.849f8e28.chunk.js.LICENSE.txt",
-    "static/media/basnet.aea0422e.pdf": "/static/media/basnet.aea0422e.pdf",
+    "static/media/basnet.7c38b478.pdf": "/static/media/basnet.7c38b478.pdf",
     "static/media/sbasnet.132d1803.gif": "/static/media/sbasnet.132d1803.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.1c952347.js",
     "static/js/2.849f8e28.chunk.js",
     "static/css/main.622bed68.chunk.css",
-    "static/js/main.f9c789ed.chunk.js"
+    "static/js/main.381dd591.chunk.js"
   ]
 }
